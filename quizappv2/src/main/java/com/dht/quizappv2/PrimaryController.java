@@ -1,9 +1,7 @@
 package com.dht.quizappv2;
 
-import com.dht.utils.MyAlert;
-import com.dht.utils.themes.DarkFactory;
-import com.dht.utils.themes.LightFactory;
-import com.dht.utils.themes.ThemeManager;
+import com.dht.utils.MyAlertSingleton;
+import com.dht.utils.MyStageSingleton;
 import com.dht.utils.themes.ThemeTypes;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -23,15 +21,15 @@ public class PrimaryController implements Initializable {
     }
     
     public void manageQuestions(ActionEvent e) {
-        MyAlert.getInstance().showAlert("Comming soon...");
+        MyStageSingleton.getInstance().showStage("questions");
     }
     
     public void practice(ActionEvent e) {
-        MyAlert.getInstance().showAlert("Comming soon...");
+        MyAlertSingleton.getInstance().showAlert("Comming soon...");
     }
     
     public void exam(ActionEvent e) {
-        MyAlert.getInstance().showAlert("Comming soon...");
+        MyAlertSingleton.getInstance().showAlert("Comming soon...");
     }
 
     public void changeTheme(ActionEvent e) {
