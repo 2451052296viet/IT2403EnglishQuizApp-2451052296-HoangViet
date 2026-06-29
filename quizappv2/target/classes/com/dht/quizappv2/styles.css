@@ -1,17 +1,7 @@
-<<<<<<< HEAD
-
-
-.Container {
-    -fx-background-color: lightblue;
-    -fx-alignment: CENTER;
-    -fx-spacing: 15;
-    -fx-padding: 10;
-=======
 .Container {
     -fx-background-color: lightcoral;
     -fx-alignment: CENTER;
     -fx-spacing: 10;
->>>>>>> 20aed3d3b52414984e79a890dae667f50faff958
 }
 
 .Subject {
@@ -25,12 +15,6 @@
 .Button {
     -fx-background-color: darkblue;
     -fx-text-fill: white;
-<<<<<<< HEAD
-    -fx-pref-width: 350;
-    -fx-padding: 10;
-    -fx-font-size: 14;
-=======
     -fx-pref-width: 200;
     -fx-padding: 10;
->>>>>>> 20aed3d3b52414984e79a890dae667f50faff958
 }

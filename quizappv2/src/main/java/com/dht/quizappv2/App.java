@@ -1,6 +1,9 @@
 package com.dht.quizappv2;
 
+<<<<<<< HEAD
 import com.dht.utils.MyConnSingleton;
+=======
+>>>>>>> 20aed3d3b52414984e79a890dae667f50faff958
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -23,6 +26,7 @@ public class App extends Application {
         stage.show();
     }
 
+<<<<<<< HEAD
     @Override
     public void stop() throws Exception {
         super.stop(); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
@@ -32,6 +36,8 @@ public class App extends Application {
     
     
 
+=======
+>>>>>>> 20aed3d3b52414984e79a890dae667f50faff958
     static void setRoot(String fxml) throws IOException {
         scene.setRoot(loadFXML(fxml));
     }

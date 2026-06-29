@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
@@ -12,20 +13,38 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-alignment: CENTER;
     -fx-spacing: 15;
     -fx-padding: 10;
+=======
+.Container {
+    -fx-background-color: #FFFFFF;
+    -fx-alignment: CENTER;
+    -fx-spacing: 10;
+    -fx-font-color: #000000;
+    -fx-font-family: "Ariel";
+>>>>>>> 20aed3d3b52414984e79a890dae667f50faff958
 }
 
 .Subject {
     -fx-font-size: 40;
     -fx-font-weight: bold;
+<<<<<<< HEAD
     -fx-fill: #000000;
+=======
+>>>>>>> 20aed3d3b52414984e79a890dae667f50faff958
     -fx-stroke-width: 3;
     -fx-stroke: gold;
 }
 
 .Button {
     -fx-background-color: #E0E0E0;
+<<<<<<< HEAD
     -fx-text-fill: #000000;
     -fx-pref-width: 350;
     -fx-padding: 10;
     -fx-font-size: 16;
 }
+=======
+    -fx-pref-width: 200;
+    -fx-padding: 10;
+}
+
+>>>>>>> 20aed3d3b52414984e79a890dae667f50faff958
