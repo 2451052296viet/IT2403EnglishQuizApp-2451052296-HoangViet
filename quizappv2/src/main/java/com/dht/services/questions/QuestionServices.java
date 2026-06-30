@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.dht.services;
+package com.dht.services.questions;
 
 import com.dht.pojo.Category;
 import com.dht.pojo.Question;
@@ -25,10 +25,7 @@ public class QuestionServices {
         
         List<Question> questions = new ArrayList<>();
         while (rs.next()) {
-            Question q = new Question();
-            q.setId(rs.getInt("id"));
-            q.setContent(rs.getString("content"));
-            questions.add(q);
+            questions.add(new Question.QuestionBuilder().setContent(rs.getString("content")).setId(rs.getInt("id")).build());
         }
         
         return questions;
