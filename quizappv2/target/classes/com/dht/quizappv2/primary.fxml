@@ -5,15 +5,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<<<<<<< HEAD
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="382.0" prefWidth="321.0" styleClass="Container" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dht.quizappv2.PrimaryController">
-   <children>
-      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Subject" text="English App" />
-      <Button mnemonicParsing="false" onAction="#manageQuestions" styleClass="Button" text="Quản lý câu hỏi" />
-      <Button layoutX="10.0" layoutY="26.0" mnemonicParsing="false" onAction="#practice" styleClass="Button" text="Luyện tập" />
-      <Button layoutX="10.0" layoutY="52.0" mnemonicParsing="false" onAction="#exam" styleClass="Button" text="Luyện thi" />
-      <ComboBox fx:id="cbThemes" onAction="#changeTheme" prefWidth="150.0" styleClass="Button" />
-=======
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="449.0" prefWidth="393.0" styleClass="Container" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dht.quizappv2.PrimaryController">
    <children>
       <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Subject" text="English App" />
@@ -21,6 +12,5 @@
       <Button layoutX="10.0" layoutY="26.0" mnemonicParsing="false" onAction="#practice" styleClass="Button" text="Luyện tập" />
       <Button layoutX="10.0" layoutY="52.0" mnemonicParsing="false" onAction="#exam" styleClass="Button" text="Luyện thi" />
       <ComboBox fx:id="cbThemes" prefWidth="150.0" styleClass="Button" />
->>>>>>> 20aed3d3b52414984e79a890dae667f50faff958
    </children>
 </VBox>

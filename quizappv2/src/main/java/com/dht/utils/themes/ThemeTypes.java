@@ -4,13 +4,17 @@
  */
 package com.dht.utils.themes;
 
+<<<<<<< HEAD
 import javafx.scene.Scene;
 
+=======
+>>>>>>> 20aed3d3b52414984e79a890dae667f50faff958
 /**
  *
  * @author admin
  */
 public enum ThemeTypes {
+<<<<<<< HEAD
     DEFAULT {
         @Override
         public void updateTheme(Scene scene) {
@@ -32,4 +36,7 @@ public enum ThemeTypes {
     };
     
     public abstract void updateTheme(Scene scene);
+=======
+    DEFAULT, DARK, LIGHT;
+>>>>>>> 20aed3d3b52414984e79a890dae667f50faff958
 }
